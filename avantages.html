@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>avantage</title>
+  <link rel="stylesheet" href="avantages.css">
+</head>
+<body>
+  <div><h1 id="avant"></h1></div>
+ <pre><canvas id="canvas" width="920" height="300"></canvas></pre>
+  <script>
+  var canvas=document.getElementById("canvas");
+  var contexte=canvas.getContext("2d");
+  contexte.font="bold 53px verdana, Arial, serif ";
+  contexte.fillStyle="blue";
+  contexte.fillText("environnement propres et structuré",20,150 );
+  contexte.linewidth="200px";
+  contexte.strokeStyle="blue";
+  contexte.strokeRect(16,80,870,130);
+  contexte.stroke();
+  
+  contexte.linewidth="20px";
+  contexte.fillStyle="red";
+  contexte.fillRect(46,230,800,18);
+  contexte.fill();
+  
+  contexte.linewidth="20px";
+  contexte.fillStyle="red";
+  contexte.fillRect(46,40,800,18);
+  contexte.fill();
+  
+  
+  var message="Da cette partie,nous allons voir les avantages de l'environnement propre et structuré";
+  let i=0;
+  function addition(){
+    if(i<message.length){
+      document.getElementById("avant").innerHTML+=message[i];
+      i++;
+      setTimeout(addition, 60);
+    }
+  }
+  addition();
+  </script>
+  <div id="videocanvas">
+  <pre>       
+    <dd>                  Avec Manampisoa RAZAFIMAHAFALY</dd>
+  </div>
+  </pre>
+  <div id="avantages">
+    <dd><h2 id="h21"> pour la santé et l'economie:</h2></dd>
+    <p>
+      Un environnement propre et structuré est très important pour la vie humaine. Il permet d’avoir un air pur et une eau propre.
+      <br>Les personnes vivant dans l'endroit calme et structuré restent sain dans la vie,car l'endroit dont l'air est pur et l'eau propre rien des maladies dans la pollution comme la maladie respiratoire,la cholera,la diarrhé,...etc.,
+      <br>Ils ont des bonne mentelité et bonne memoire,
+      car l'environnement calme et structuré entraine d'intelligence memoire et de developpement normal du connaissance.
+      <br>Les arbres sont enrichit d'oxygène grâce à leur photosynthèses.Les plantes et les petites espèces des animaux sont vivent mieux dans un milieu propre.
+      <br>Les endroit propres et structureé attire des tourismes et des investisseurs.
+      <br>Les differentes types des plantes fruitier donner les differents valeurs nitritives
+    </p>
+      <dd><h2 id="h21">Pour la végétation et climat</h2></dd>
+    <p>
+      L'environnement tienne des rôles important pour la climat et végétation,
+      <br>ils sont reduire les gaz carboniques dans l'athmosphère pour y notre planète a respirable,
+      <br>l'environnement structuré est équilibré et amelioré le climat
+      <br>Les plantes vertes attire le pluie grâce à la cycle de l'eau.La cycle de l'eau c'est comme les schema ci-dessous:
+      <br><img src="cycled'eau.png" id="cicle">
+      La fonctionnement de la cycle de l'eau:
+      <br>Il se fait cinq(5) cycles:
+      <li><b id="1er">L'ÉVAPORATION:</b></li>
+      le soleil chauffe l'eau des océans,des lacs,des rivières et les plante vertes,du coup,l'eau s'évapore et se transforme en vapeur d'eau.
+      <li><b id="1er">LA CONDANSATION : </b></li>
+      La vapeur d'eau pendant <strong>l'évaporatin</strong> se monte et ascendant vers le ciel,
+      sous l'action de l'air froid de la ciel,elle se refroidir et s transforme en nuages.
+      <li><b>LA PRÉCIPITATIONS : </b></li>
+      Si les gouttelettes devient trés lourdes,ils sont retombés sur Terre sous forme des pluie,des neiges ou des grêles.
+      <li>Aprés ces trois étapez certain eau se deshydrate vers les sous sols et la racine des plantes les absorbent,
+        <br>certain eau s'écoule dans la surface du sol et 
+        rejoit vers les lacs ou océan ou des rivières.
+        <li>l'autre cycle se récommence,ainsi de suite</li>
+      
+  
+    </p>
+      <h1><a href="index.html">RETOUR</a></h1>
+  </div>
+</body>
+</html>

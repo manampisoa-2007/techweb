@@ -1,0 +1,47 @@
+
+body{
+  background-color: green;
+  margin: 20px;
+  line-height: 36px;
+  height: 200vh;
+      
+  }
+#h1{
+  font: bold,20px,arial,serif;
+  color: blue;
+  text-align: center;
+}
+#video2{
+  width: 900px;
+}
+#canvas{
+    background-color: cyan;
+}
+#avantages{
+  background-color: aqua;
+  padding: 30px 70px 200px 70px;
+  align-items: normal; align-self: 38px;
+  word-spacing: 16px;
+  margin: 20px;
+}
+#h21{
+  color: red;
+}
+#videocanvas{
+}
+#cicle{
+  width: 100%;
+}
+
+h1{
+  color: white;
+  border-right: 5px bold solid;
+  font-size: 40px;
+  margin: 30px;
+}
+  
+  
+
+
+
+

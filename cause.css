@@ -1,0 +1,22 @@
+body{
+  background-color: burlywood;
+  margin: 20px;
+  align-items: center;
+  line-height: normal;
+}
+h1{
+  color: black;
+  font-size: 50px;
+  padding: 10px 10px 10px 10px;all: 
+}
+#toto{
+  background-color: chocolate;
+  padding: 5px 10px 5px 40px;
+}
+#cause{
+  background-color: darkcyan;
+  padding: 0px 30px 5px 30px;
+  word-spacing: 5px;
+}    
+
+

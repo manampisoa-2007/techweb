@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <style>
+  body{
+    background-color: aqua;
+    align-content: center;
+    font-size: 16px;
+    margin: 20px;
+  }
+  #dry{
+    width: 900px;
+   
+    background-color: rgba(170,200,40,0.6);
+  }
+  legend{
+    text-transform: uppercase;
+  }
+  #dry input{
+    width: 400px;
+    height: 80px;
+    
+  }
+  #dry label{
+    display: inline-block;
+    width: 300px;
+    padding: 10px 0px 15px 40px;
+    
+  }
+  #but{
+    color: blue;
+    font-size: 25px;
+    margin: 6% 50%;
+  }
+  
+  </style>
+</head>
+<body>
+  <pre>
+    <h1>
+         formulaire
+    </h1></pre>
+  <p>(si vous n'avez pas d'adresse mail ecrire tomanampy07@gmail.com)</p>
+      
+  <br> <form action="https://formspree.io/f/mjgzrype" method="POST">
+      <fieldset id="dry">
+        <legend>entrer votre commentaire</legend>
+        <br><label for="nom">Entrer votre nom:</label>
+      
+        <input type="texte" name="nom" id="nom" autocomplete="on" placeholder="ex:RAZAFIMAHAFALY" required>
+        <br>
+        <label for="prenom">Entrez votre prénom:</label>
+        
+        <input type="texte" name="prenom" id="prenom" autocomplete="on" placeholder="ex:Manampisoa" required>
+        <br>
+        <label for="mail">Entrez votre adresse mail:</label>
+      
+        <input type="texte" name="mail" id="mail" autocomplete="on" placeholder="ex: razmanampy07@gmail.com" required>
+        <br>
+        <label for="commentaire">mes fautes d'orthographes:</label>
+        
+        <input name="commentaire" id="commentaire" placeholder="ecrivez vos commentaire" required>
+        <pre>
+      </fieldset>
+        <br>      
+        <button type="submit" id="but">
+        ENVOYER👍
+      </button>
+     
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+  background-color: olivedrab;
+  margin: 20px;
+}
+h1{
+  font-size: 30px;
+}
+#bobot{
+  background-color: cyan;
+  padding: 30px;
+  
+}
+#dev{
+  background-color: coral;
+  align-content: center;
+
+}
+#leo{
+  padding: 10px 20px 3px 20px;
+}
+

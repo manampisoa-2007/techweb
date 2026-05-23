@@ -1,0 +1,79 @@
+body{
+  background-color: chartreuse;
+  align-items: normal;
+  color-adjust: economy;
+  word-spacing: 9.5px;
+  line-height: 26px;
+  margin: 20px;
+  justify-content: center;
+  
+}
+#canvas1{
+  background-color: chartreuse;
+  
+}
+#video{
+  width: 800px;
+}
+#intro{
+  background-color: beige;
+  padding: 30px 40px 0px 60px;
+  align-items: normal;
+  word-spacing: 15px;
+}
+#image{
+  display: none;
+}
+#canvasvideo{
+  background-color: aqua;
+  text-align: center;
+}
+#part1{
+  background-color: beige;
+  padding: 30px 40px 0px 60px;
+  align-items: normal;
+  word-spacing: 15px;
+}
+
+#prati{
+  font-size: 40px;
+  align-content: 20px;
+  align-self: 10px;
+  align-items: 20px;
+}
+#opo{
+  background-color: brown;
+  padding: 20px;
+}
+
+#part2{
+  background-color: beige;
+  padding: 30px;
+  align-items: normal;
+  word-spacing: 15px;
+  
+}
+#consequance{
+  background-color: beige;
+  padding: 10px  20px 0px 30px
+  
+}
+#fini{
+  background-color: ;
+  padding: 20px;
+}
+h4{
+  font-size: 50px;
+}
+img{
+  width: 400px;
+  height: 350px;
+  border-radius: 50%;
+}
+#sese{
+  font-size: 40px;
+}
+#solut{
+  background-color: beige;
+  padding: 10px 10px 5px 20px;
+}

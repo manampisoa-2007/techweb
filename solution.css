@@ -1,0 +1,21 @@
+body{
+  background-color: rgba(170,200,40,0.6);
+  
+  margin: 20px;
+}
+h1{
+  font-size: 30px;
+  color: navy;
+}
+#gogo{
+  background-color: aqua;
+  padding: 10px 10px 10px 20px;
+}
+h2{
+  padding: 10px 10px 4px 15%;
+  color: black;
+}
+h4{
+  font-size:100px;
+}
+
